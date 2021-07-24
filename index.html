@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube Mobile</title>
+
+        <!--css 연결-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--JS 연결-->
+        <script defer="defer" src="main.js"></script>
+
+        <!--Font awesome 추가-->
+        <script src="https://kit.fontawesome.com/44927fef76.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="header__logo">
+                <i class="fab fa-youtube"></i>
+                <a href="#">YOUTUBE</a>
+            </div>
+            <div class="header__search">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+
+        </header>
+
+        <!-- video -->
+        <section class="player">
+            <video
+                controls="controls"
+                autoplay="autoplay"
+                width="400"
+                src="videos/dog.mp4"></video>
+        </section>
+
+        <!-- Video Info -->
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#ocean</li>
+                    <li>#sky</li>
+                    <li>#Windsurfer</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title">How to Duck Dive Your Windsurfer with Shawna Cropas</span>
+                    <button class='moreBtn'>
+                        <i class="fas fa-sort-down"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="views">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button>
+                    <i class="fas fa-thumbs-up"></i>
+                </button>
+                <span>1k</span></li>
+            <li>
+                <button>
+                    <i class="fas fa-thumbs-down"></i>
+                </button>
+                <span>0</span></li>
+            <li>
+                <button>
+                    <i class="fas fa-share"></i>
+                </button>
+                <span>Share</span></li>
+            <li>
+                <button>
+                    <i class="fas fa-plus"></i>
+                </button>
+                <span>Save</span></li>
+            <li>
+                <button>
+                    <i class="fab fa-font-awesome"></i>
+                </button>
+                <span>Report</span></li>
+        </ul>
+
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="imgs/me.jpg" alt="">
+                <div class="info">
+                    <span class="name">Jamse</span>
+                    <span class="subscribe">2M subscribe</span>
+                </div>
+            </div>
+            <button class="subscribe"></button>
+        </div>
+    </section>
+    <!-- UpNext -->
+    <section class="UpNext">
+        <span class="title">UP Next</span>
+        <ul>
+            <li class="item">
+                <img src="" alt="">
+                <div class="itemInfo">
+                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                    <span class="channel">Jamse</span>
+                    <span class="views">1M views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="" alt="">
+                <div class="itemInfo">
+                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                    <span class="channel">Jamse</span>
+                    <span class="views">1M views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="" alt="">
+                <div class="itemInfo">
+                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                    <span class="channel">Jamse</span>
+                    <span class="views">1M views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
