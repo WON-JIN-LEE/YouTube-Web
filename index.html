@@ -14,8 +14,13 @@
 
         <!--google Fonts add-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+            rel="stylesheet">
 
         <!--Font awesome 추가-->
         <script src="https://kit.fontawesome.com/44927fef76.js" crossorigin="anonymous"></script>
@@ -36,14 +41,15 @@
 
         <!-- video -->
         <section class="player">
-            <video
-                controls="controls"
-                autoplay="autoplay"
-                src="videos/dog.mp4"></video>
+            <video controls="controls" src="videos/dog.mp4"></video>
         </section>
+
+<!-- Video info & Up next -->
+    <div class="infoAndUpNext">
 
         <!-- Video Info -->
         <section class="info">
+            <!-- Metadata -->
             <div class="metadata">
                 <ul class="hashtags">
                     <li>#ocean</li>
@@ -51,89 +57,104 @@
                     <li>#Windsurfer</li>
                 </ul>
                 <div class="titleAndButton">
-                    <span class="title">How to Duck Dive Your Windsurfer with Shawna Cropas</span>
+                    <span class="title clamp">Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+                    만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과 함께하는 프론트엔드 실전 입문편</span>
                     <button class='moreBtn'>
                         <i class="fas fa-sort-down"></i>
                     </button>
                 </div>
-            </div>
-            <div class="views">
                 <span class="views">1M views 1 month ago</span>
             </div>
-        </div>
+            
+        
         <!-- Actions -->
         <ul class="actions">
             <li>
                 <button>
-                    <i class="fas fa-thumbs-up"></i>
+                    <i class="active fas fa-thumbs-up"></i>
+                    <span>1k</span>
                 </button>
-                <span>1k</span></li>
+            </li>
             <li>
                 <button>
                     <i class="fas fa-thumbs-down"></i>
+                    <span>0</span>
                 </button>
-                <span>0</span></li>
+            </li>
             <li>
                 <button>
                     <i class="fas fa-share"></i>
+                    <span>Share</span>
                 </button>
-                <span>Share</span></li>
+            </li>
             <li>
                 <button>
                     <i class="fas fa-plus"></i>
+                    <span>Save</span>
                 </button>
-                <span>Save</span></li>
+            </li>
             <li>
                 <button>
                     <i class="fab fa-font-awesome"></i>
+                    <span>Report</span>
                 </button>
-                <span>Report</span></li>
+            </li>
         </ul>
 
-        <!-- Channel Description -->
+        <!-- Channel description -->
         <div class="channel">
             <div class="metadata">
-                <img src="imgs/me.jpg" alt="">
+                <img src="image/me.jpg" alt="" />
                 <div class="info">
-                    <span class="name">Jamse</span>
-                    <span class="subscribe">2M subscribe</span>
+                    <span class="name">드림코딩 by Jamse</span>
+                    <span class="subscribers">1M subcribers</span>
                 </div>
             </div>
-            <button class="subscribe"></button>
+            <button class="subscribe">subscribe</button>
         </div>
     </section>
-    <!-- UpNext -->
-    <section class="UpNext">
-        <span class="title">UP Next</span>
-        <ul>
-            <li class="item">
-                            <video  width="300"  src="videos/dog.mp4"></video>
-                <div class="itemInfo">
-                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
-                    <span class="channel">Jamse</span>
-                    <span class="views">1M views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-            <li class="item">
-                            <video  width="300 "src="videos/ocean.mp4"></video>
-                <div class="itemInfo">
-                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
-                    <span class="channel">Jamse</span>
-                    <span class="views">1M views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-            <li class="item">
-                            <video  width="300 "src="videos/sky.mp4"></video>
-                <div class="itemInfo">
-                    <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
-                    <span class="channel">Jamse</span>
-                    <span class="views">1M views</span>
-                </div>
-                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-            </li>
-        </ul>
-    </section>
+
+        <!-- UpNext -->
+        <section class="upNext">
+            <span class="title">UP Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><video  src="videos/dog.mp4"></video></div>
+                    <div class="itemInfo">
+                        <span class="title">프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발 입문자편 강의를 시작합니다 ⭐️ (HTML,
+                        CSS, Javascript + 실전 프로젝트)</span>
+                        <span class="name">드림코딩 by 엘리</span>
+                        <span class="views">82K views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"><video src="videos/ocean.mp4"></video></div>
+                    <div class="itemInfo">
+                        <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편:
+                            HTML, CSS, Javascript</span>
+                        <span class="name">Jamse</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"><video  src="videos/sky.mp4"></video></div>
+                    <div class="itemInfo">
+                        <span class="title">HTML 태그 완성, 웹 포트폴리오 만들기 전에 꼭 보세요 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+                        <span class="name">Jamse</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
