@@ -18,6 +18,7 @@ upNextVideo.addEventListener('mouseover', (e) => {
 
 upNextVideo.addEventListener('mouseout', (e) => {
     const videoId = e.target;
+    
     if (videoId.id === 'video') { videoId.removeAttribute('controls', 'controls'); }
 });
 
